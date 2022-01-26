@@ -196,4 +196,4 @@ class AccountEditForm(forms.ModelForm):
 
         self.fields['contact_number'].widget.attrs.update({'id':'number', 'class':'form-control', 'name':'contact_number', 'placeholder':' ', 'readonly':True})
         self.fields['contact_number'].label = 'Contact Number'
-        self.fields['contact_number'].required = False
+        self.fields['contact_number'].required = False 
